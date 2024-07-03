@@ -1,0 +1,24 @@
+.spanBlock {
+    display: block;
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.spanInline {
+    display: inline;
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.spanInlineBlock {
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: yellow;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}

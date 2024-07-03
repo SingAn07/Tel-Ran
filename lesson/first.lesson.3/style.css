@@ -1,0 +1,16 @@
+/* list-style */
+/* disc,circle  */
+table,th,td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+/* nth-child */
+/* odd, even */
+tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+tbody tr:nth-child(even) {
+    background-color: yellow;
+}

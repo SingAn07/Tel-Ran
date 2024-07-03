@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 70px;
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}
+
+.menu, .social {
+    display: flex;
+    gap: 20px;
+}

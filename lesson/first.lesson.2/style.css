@@ -1,0 +1,29 @@
+
+/* border */
+/* solid, dotted, dashed, double, inset */
+
+/* margin */
+
+margin: 40px 20px 60px 80px;
+
+
+.hobby {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    background-color: beige;
+}
+.work {
+    border: 2px dotted yellow;
+    margin: 50px;
+}
+.dream {
+    border: 5px solid;
+}
+.padding60 {
+    padding: 60px;
+}
+#hobby_text {
+    color: red;
+    font-size: 30px;
+}

@@ -1,0 +1,13 @@
+/* row(by default), row-reverse, column, column-reverse*/
+.parent {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid black;
+    height: 600px;
+}
+.child {
+    font-size: 30px;
+    border: 1px solid red;
+    height: 60px;
+    width: 60px;
+}

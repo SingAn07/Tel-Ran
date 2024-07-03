@@ -1,0 +1,37 @@
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+.div2 { 
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.div3 { 
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 128, 0, 1);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 3;
+}
+.div4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4;
+}

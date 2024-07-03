@@ -1,0 +1,52 @@
+/* transition */
+/* transition-timing-function */
+/* .test {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px solid black;
+    transition: all 2s;
+}
+.test:hover {
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+} */
+#linear {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    transition: all 3s linear;
+}
+#ease {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    transition: all 5s ease;
+}
+#easeIn {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    transition: all 5s ease-in;
+}
+#easeOut {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    transition: all 5s ease-out;
+}
+#easeInOut {
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    transition: all 5s ease-in-out;
+}
+#linear:hover, #ease:hover, #easeIn:hover, #easeInOut:hover, #easeOut:hover {
+    width: 100%;
+}
